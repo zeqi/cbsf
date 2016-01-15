@@ -55,9 +55,9 @@ oracledb.getConnection(
           return;
         }
 
-        console.log(result);
-        //console.log(result.metaData);
-        //console.log(result.rows);
+        //console.log(result);
+        console.log(result.metaData);
+        console.log(result.rows);
         doRelease(connection);
       });
   });
